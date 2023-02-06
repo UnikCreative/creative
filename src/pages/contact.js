@@ -1,5 +1,8 @@
-import '../App.css';
+import '../index.css';
 // import './index.css';
+// import 'intl-tel-input/build/css/intlTelInput.css'
+import intlTelInput from 'intl-tel-input';
+
 
 // eslint-disable-next-line
 //import {Header} from '../components/Header'
@@ -16,6 +19,7 @@ import {Routes, Route} from 'react-router-dom'
 
 export const Contact = () => {
 
+ 
 
   return (
 
