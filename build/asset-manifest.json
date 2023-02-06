@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8a1f301.css",
+    "main.js": "/static/js/main.1ab6b272.js",
+    "static/js/787.a3f65e08.chunk.js": "/static/js/787.a3f65e08.chunk.js",
+    "static/media/xlems_qrtvs.png": "/static/media/xlems_qrtvs.94d63a8e78399be3ae9c.png",
+    "static/media/boutimg.png": "/static/media/boutimg.9572c846b749a8bcc801.png",
+    "static/media/misxrimg.png": "/static/media/misxrimg.90d5abb02d3f106e3a25.png",
+    "static/media/img.png": "/static/media/img.7b6a8161e1ba5e85d22e.png",
+    "static/media/xlero_twerw.jpg": "/static/media/xlero_twerw.d546b28ef1932576b22b.jpg",
+    "static/media/heroimage.png": "/static/media/heroimage.67b674acc96c06a3b43b.png",
+    "static/media/storyimg.png": "/static/media/storyimg.be333de76c15b9918cf9.png",
+    "static/media/imgtwo.png": "/static/media/imgtwo.6de9cfd0015b755c5ef7.png",
+    "static/media/Rectangle.jpg": "/static/media/Rectangle.db0e3d0c93403bbc8898.jpg",
+    "static/media/Rectanglel.jpg": "/static/media/Rectanglel.a7350b2686e25e116922.jpg",
+    "static/media/imgone.png": "/static/media/imgone.c5e97b4068da0f1baf55.png",
+    "static/media/one.jpg": "/static/media/one.8338add5d6acb941c6dc.jpg",
+    "static/media/victex logo 1.png": "/static/media/victex logo 1.f4c6c38152b3c92cb385.png",
+    "index.html": "/index.html",
+    "main.e8a1f301.css.map": "/static/css/main.e8a1f301.css.map",
+    "main.1ab6b272.js.map": "/static/js/main.1ab6b272.js.map",
+    "787.a3f65e08.chunk.js.map": "/static/js/787.a3f65e08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a1f301.css",
+    "static/js/main.1ab6b272.js"
+  ]
+}

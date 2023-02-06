@@ -1,0 +1,43 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+#/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+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 -- tokens
+
+##todos
+
+##remove default outline from form fields when in focus
+##make form for phone numbers display list of country code to choose from
+##work on iframe
+##make logo return user to home screen when clicked
+## in the about page include members of the scrum team
+
+style={{ position: 'fixed', top: 0, left: 0, bottom: 0, right: 0, background: 'rgba(0, 0, 0, 0.5)' }}
+style={{ background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+
+## get background image for solutions section
+
+##INclude contact button in mobile navigation menue
+## 
