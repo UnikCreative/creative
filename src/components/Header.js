@@ -17,7 +17,7 @@ export const Header = () => {
 		<div>
 			<header className="px-6  lg:hidden flex justify-between items-center py-8 lg:px-16">
 			{/*mobile view */}
-				<img  src={require("./assests/images/logo.png") } className="w-[3.8em]" alt="logo" />
+				<a href="/"><img  src={require("./assests/images/logo.png") } className="w-[3.8em]" alt="logo" /></a>
 				
 				{ isNavOpen && <ul className="absolute top-[6rem] bg-white w-[100%] left-[0] pb-3 pl-[1.75rem]" id="navLinksContainer">
 					<li className="cursor-pointer pb-3"><a href="/">Home</a></li>
@@ -38,7 +38,7 @@ export const Header = () => {
 			{/*desktop view */}
 
 			<div className="flex justify-between items-center">
-				<img  src={require("./assests/images/logo.png") } className="w-[3.8em]" alt="logo" />
+				<a href="/"><img  src={require("./assests/images/logo.png") } className="w-[3.8em]" alt="logo" /></a>
 				<ul className="flex gap-[1.32em] text-gray-800">
 						<li className="cursor-pointer"><a href="/">Home</a></li>
 					<li className="cursor-pointer"><a href="/about">About Us</a></li>

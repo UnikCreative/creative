@@ -8,7 +8,7 @@ export const Footer = () => {
 		
 		<div className="md:flex md:flex-wrap md:justify-between">
 			<div className="flex flex-col  w-[70%] md:w-[16em] ">
-			<img alt="logo"  src={require("./assests/images/footerlogo.png") } className="mb-1 lg:mb-3 w-[7em]" />
+			<a href="/"><img alt="logo"  src={require("./assests/images/footerlogo.png") } className="mb-1 lg:mb-3 w-[7em]" /></a>
 			<p className=" ">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodipsum dolor sit amet, consectetur adipiscing.</p>
 			</div>
 

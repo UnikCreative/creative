@@ -10,6 +10,8 @@ import serviceIconOne from "../components/assests/images/img two/Vector.png";
 import serviceIconTwo from "../components/assests/images/img two/software.png";
 import serviceIconThree from "../components/assests/images/img two/consult.png";
 import React, { useState } from 'react';
+import {Button} from "../components/button"
+
 
 export const About = () =>  {
 
@@ -39,8 +41,7 @@ export const About = () =>  {
    
     </div>
     </div>
-    <button className=" mt-16 flex justify-center text-primary mr-[auto] ml-[auto] items-center"><span className="border-2 border-primary p-3 rounded-full"><  FaArrowRight/></span> <span className="ml-3 lg:text-[1.2em]">Get in touch</span></button>
-
+    <Button action="Get in touch" />
   </section>
 
   <section className="bg-bg-val text-gray-100 px-6 py-16 lg:px-16">
@@ -109,8 +110,8 @@ export const About = () =>  {
   </div>
   <div className="text-center text-primary mt-10">
     <h3 className="text-xl font-extrabold">What can we help you with today</h3>
-    <button className=" mt-3 flex justify-center mr-[auto] ml-[auto] items-center"><span className="border-2 border-primary p-3 rounded-full">< FaArrowRight/></span> <span className="ml-3 md:text-xl">Get in touch</span></button>
-  </div>
+    <Button action="Get in touch"/>
+    </div>
   </section>
 
    <section className="bg-white text-center lg:px-16 py-16 px-6 bg-white ">
@@ -118,7 +119,7 @@ export const About = () =>  {
   <h3 className="text-primary text-2xl lg:text-4xl font-extrabold mb-2"> Do you have a dream?</h3>
 
   <h5 className="text-gray-800 lg:text-[1.2em] md:w-[29em] ml-[auto] mr-[auto] mt-5">Allow us bring your dreams to life. We are ready to listen to your need and proffer solutions in different areas of technology and business</h5>
-
+  <Button action="Get in touch" />
   </section>
 
  

@@ -10,6 +10,7 @@ import {Card} from '../components/card'
 import serviceIconOne from "../components/assests/images/img two/Vector.png";
 import serviceIconTwo from "../components/assests/images/img two/software.png";
 import serviceIconThree from "../components/assests/images/img two/consult.png";
+import {Button} from "../components/button"
 // eslint-disable-next-line
 import {Routes, Route} from 'react-router-dom'
 
@@ -45,7 +46,7 @@ export function Home() {
   </div>
   <div className="text-center text-primary mt-10">
     <h3 className="text-xl font-extrabold">What can we help you with today</h3>
-    <button className=" mt-3 flex justify-center mr-[auto] ml-[auto] items-center"><span className="border-2 border-primary p-3 rounded-full">< FaArrowRight/></span> <span className="ml-3 md:text-xl">Get in touch</span></button>
+    <Button action="Get In Touch" />
   </div>
   </section>
 
@@ -81,8 +82,7 @@ export function Home() {
      </div>
     </div>
     </div>
-    <button className=" mt-16 flex justify-center text-primary mr-[auto] ml-[auto] items-center"><span className="border-2 border-primary p-3 rounded-full"><  FaArrowRight/></span> <span className="ml-3 lg:text-[1.2em]">Get in touch</span></button>
-
+    <Button action="Get In Touch" />
   </section>
 
   <section id="ServiceSection" className="lg:px-16 px-6 py-16 bg-contain bg-repeat bg-service-section ">
