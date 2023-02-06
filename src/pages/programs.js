@@ -28,10 +28,7 @@ export const Programs = () => {
     setSelectedTab(index);
   };
 
-
-
   return (
-
 
     <>
 
@@ -49,31 +46,7 @@ export const Programs = () => {
     </div>
     </section>
 
-    <section>
-
-    <div>
-     
-        <div onClick={() => handleTabClick(1)}>
-          Tab 2
-        </div>
-
-        <div onClick={() => handleTabClick(1)}>
-          Tab 2
-        </div>
-
-        <div onClick={() => handleTabClick(2)} >
-          Tab 3
-        </div>
-
-      </div>
-
-      <div style={styles.tabContent}>
-        {selectedTab === 0 && <p>Tab 1 content</p>}
-        {selectedTab === 1 && <p>Tab 2 content</p>}
-        {selectedTab === 2 && <p>Tab 3 content</p>}
-      </div>
-    </div>
-  </section>
+<section>
 
     <div className="md:flex md:flex-wrap md:gap-[2rem] px-6 lg:px-16 my-16">
         <Card>
@@ -100,7 +73,7 @@ export const Programs = () => {
           <p>lorem</p>
         </Card>
 
-        </div >
+        </div>
     </section>   
 
       <section id="whyus_section" className="lg:px-16 px-6 py-16 bg-bg-three bg-cover bg-repeat text-white">
