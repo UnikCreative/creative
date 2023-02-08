@@ -41,9 +41,9 @@ export const Programs = () => {
     <div className='lg:px-16 px-6 h-[34em] bg-bg-port bg-no-repeat bg-origin-border bg-center bg-cover flex justify-center text-left flex-col'>
     <div className="text-white w-[95%] md:w-full">
       
-      <h3 className="text-[2em] font-bold lg:text-[3em] xl:text-[3.4em]">Some Clients We've Worked With</h3>
-      <p className="text-gray-100 mt-4 lg:text-[1.2em] sm:w-[28rem] lg:w-[30rem]">We provide the prefect blend of people and technology. Our approach to problem-solving & strategic planing will help you deliver exceptional services</p>
-      <a href="/contact"><button className="text-left border-2 border-[#07a6c6] mt-6 px-6  cursor-pointer font-bold py-2 rounded-full"> Contact Us </button></a>
+      <h3 className="text-[2em] font-bold lg:text-[3em] xl:text-[3.4em]">Want to dive into Tech?</h3>
+      <p className="text-gray-100 mt-4 lg:text-[1.2em] sm:w-[28rem] lg:w-[30rem]">The goal of this training is to equip individuals with the knowledge and skills needed to effectively design and develop software applications that meet the needs of users and stakeholders.</p>
+      <a href="/contact"><button className="text-left border-2 border-[#07a6c6] mt-6 px-6  cursor-pointer font-bold py-2 rounded-full"> About US </button></a>
 
     </div>
     </div>
@@ -85,8 +85,8 @@ export const Programs = () => {
     <img src={require("../components/assests/images/img.png") } className="mb-5 min-w-full md:min-w-[53%]" alt=""/>
     <div>
     <h3 className="font-extrabold text-2xl mb-4 mt-10 md:text-4xl">Why choose us?</h3>
-    <p className="text-gray-200 lg:text-[1.2em]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-    <p className="text-gray-200 lg:text-[1.2em] mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+    <p className="text-gray-200 lg:text-[1.2em]">We have a number of different teams within our company that specialise in different areas of technology and business so you can be rest assured of quality. </p>
+    <p className="text-gray-200 lg:text-[1.2em] mt-3">We develop the best solutions that are innovative, practical and timely according to your requirements. </p>
    
 
     <div className="md:flex mt-7 md:mt-12 md:items-center  md:justify-between justify-center md:gap-[.9em] lg:gap-[2em]">
@@ -94,18 +94,18 @@ export const Programs = () => {
       <div className="md:mb-0 flex justify-center items-center flex-col mb-8 ">
      <span className="py-5 px-3 border rounded-[100%] border-heading"> <img src={require("../components/assests/images/img two/shake.png") } className="w-[4rem]" alt=""/></span>
     
-      <h4 className="md:mt-[.4em] lg:text-[1.2em]">lorem isupm</h4>
+      <h4 className="md:mt-[.4em] lg:text-[1.2em]">Partnership</h4>
       </div>
 
       <div className="md:mb-0 mb-8 flex justify-center items-center flex-col">
       <span className="py-4 px-6 border rounded-[100%] border-heading"><img src={require("../components/assests/images/img two/creative.png") }  className="w-[2rem]" alt=""/></span>
     
-      <h4 className="lg:text-[1.2em]">lorem isupm</h4>
+      <h4 className="lg:text-[1.2em]">Creativity</h4>
       </div>
 
       <div className="flex justify-center items-center flex-col md:my-0">
         <span className="py-4 px-4 border rounded-[100%] border-heading"><img src={require("../components/assests/images/img two/award.png") } className="w-[3rem]"  alt=""/></span>
-      <h4 className="lg:text-[1.2em]">lorem isupm</h4>
+      <h4 className="lg:text-[1.2em]">Professionality</h4>
       </div>
 
      </div>
