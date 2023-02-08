@@ -22,10 +22,12 @@ export function Solutions() {
     <section>
     <div className='lg:px-16 px-6 h-[34em] bg-bg-solutions bg-no-repeat bg-origin-border bg-center bg-cover flex justify-center text-left flex-col'>
     <div className="text-white w-[95%] md:w-full">
-    <h3 className="text-[2em] font-bold lg:text-[3em] xl:text-[3.4em]">Best Services Grow <br className="hidden lg:block" />Your Business Value</h3>
-    <p className="text-gray-100 mt-4 lg:text-[1.2em] sm:w-[28rem] ">We invest in the skills and resources necessary to create innovative software solutions that meet the needs of our customers and stakeholders.</p>
+    <h3 className="text-[2em] font-bold lg:text-[3em] xl:text-[3.4em]">Best Services Grow Your <br className="block lg:hidden" /> Business Value </h3>
 
-    <button className="text-left border-2 border-[#07a6c6] mt-6 px-6  cursor-pointer font-bold py-2 rounded-full"> Portfolio </button>
+    {/*  <h3 className="text-[2em] font-bold lg:text-[3em] xl:text-[3.4em]">Best Services Grow <br className="hidden lg:block" />Your Business Value</h3> */}
+    <p className="text-gray-100 mt-2 lg:text-[1.2em] sm:w-[28rem] ">We invest in the skills and resources necessary to create innovative software solutions that meet the needs of our customers and stakeholders.</p>
+
+    <a href ="/portfolio"> <button className="text-left border-2 border-[#07a6c6] mt-6 px-6  cursor-pointer font-bold py-2 rounded-full"> Portfolio </button></a>
 
     </div>
     </div>

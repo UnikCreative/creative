@@ -25,7 +25,7 @@ export const About = () =>  {
     <div className="text-white w-[95%] md:w-full">
 
     <h3 className="text-[2em] font-bold lg:text-[3em] xl:text-[3.4em]">About Us</h3>
-    <p className="text-gray-100 mt-4 lg:text-[1.2em] sm:w-[28rem] lg:w-[30rem]">We provide the prefect blend of people and technology. Our approach to problem-solving & strategic planing will help you deliver exceptional services</p>
+    <p className="text-gray-100 mt-2 lg:text-[1.2em] sm:w-[28rem] lg:w-[30rem]">We provide the prefect blend of people and technology. Our approach to problem-solving & strategic planing will help you deliver exceptional services</p>
 
     </div>
     </div>
