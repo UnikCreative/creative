@@ -8,82 +8,46 @@ export const Webprojects = () => {
 	
 			 <div className="md:flex md:justify-center md:flex-wrap md:gap-[1.75rem]">
             
-            <Card>
+           
+     <Card>
             {/*card one*/}
            <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
-          </div>
-            </Card>
-
-
-            <Card>
-            {/*card two*/}
-           <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
-          </div>
-            </Card>
-
-
-            <Card>
-            {/*card three*/}
-           <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
-          </div>
-            </Card>
-
-
-            <Card>
-            {/*card one*/}
-           <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
+            <img alt="logio" src={require ("../components/assests/images/oho.png") }/>
+            <p className="text-left mt-3 text-gray-500">Ecommerce Application</p>
           </div>
             </Card>
 
             <Card>
             {/*card one*/}
            <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
-          </div>
-            </Card>
-          
-          <Card>
-            {/*card one*/}
-           <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
-          </div>
-            </Card>
-
-          <Card>
-            {/*card one*/}
-           <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
-          </div>
-            </Card>
-
-
-            <Card>
-            {/*card one*/}
-           <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
+            <img alt="logio" src={require ("../components/assests/images/easylear.png") }/>
+            <p className="text-left mt-3 text-gray-500">Ecommerce Application</p>
           </div>
             </Card>
 
             <Card>
             {/*card one*/}
            <div>
-            <img alt="logo" />
-            <p>lorem isup</p>
+            <img alt="logio" src={require ("../components/assests/images/oho.png") }/>
+            <p className="text-left mt-3 text-gray-500">Ecommerce Application</p>
           </div>
             </Card>
 
+            <Card>
+            {/*card one*/}
+           <div>
+            <img alt="logio" className="w-[5.6em]" src={require ("../components/assests/images/victex logo 1.png") }/>
+            <p className="text-left mt-3 text-gray-500">Ecommerce Application</p>
+          </div>
+            </Card>
+
+             <Card>
+            {/*card one*/}
+           <div>
+            <img alt="logio" src={require ("../components/assests/images/TANA HEALTHCARE LTD LOGO-06 1.png") }/>
+            <p className="text-left mt-3 text-gray-500">Ecommerce Application</p>
+          </div>
+            </Card>
 
 
           </div>
