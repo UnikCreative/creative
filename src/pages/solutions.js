@@ -6,6 +6,7 @@ import {Header} from '../components/Header'
 import {Herosection} from '../components/Herosection'
 import {Heading} from '../components/heading'
 import {Subheading} from '../components/Subheadings'
+import {Button} from '../components/button'
 import {Card} from '../components/card'
 import serviceIconOne from "../components/assests/images/img two/Vector.png";
 import serviceIconTwo from "../components/assests/images/img two/software.png";
@@ -55,7 +56,7 @@ export function Solutions() {
     </div>
     <div className="text-center text-primary mt-10">
     <h3 className="text-xl font-extrabold">What can we help you with today</h3>
-    <button className=" mt-3 flex justify-center mr-[auto] ml-[auto] items-center"><span className="border-2 border-primary p-3 rounded-full">< FaArrowRight/></span> <span className="ml-3 md:text-xl">Get in touch</span></button>
+    <Button action="Get in touch" />
     </div>
     </section>
 
@@ -92,8 +93,7 @@ export function Solutions() {
     </div>
     </div>
     </div>
-    <button className=" mt-16 flex justify-center text-primary mr-[auto] ml-[auto] items-center"><span className="border-2 border-primary p-3 rounded-full"><  FaArrowRight/></span> <span className="ml-3 lg:text-[1.2em]">Get in touch</span></button>
-
+    <Button action="Get in touch" />
     </section>
 
     <section id="ServiceSection" className="lg:px-16 px-6 py-16 bg-contain bg-repeat bg-service-section ">
@@ -125,8 +125,9 @@ export function Solutions() {
     <section className="bg-white text-center lg:px-16 py-16 px-6 bg-white">
   {/* social proof */}
     <h3 className="text-primary text-2xl lg:text-4xl font-extrabold mb-2"> Client worked with</h3>
-    <h5 className="text-gray-800 lg:text-[1.2em]">We revolutionizing the technology industry with innovative solutions that meet the evolving needs of businesses and consumers. Our team of experts is dedicated to delivering cutting-edge technology that drives growth and success for our clients.</h5>
-    <div className="flex items-center justify-center"> 
+    <Subheading subheading="We revolutionizing the technology industry with innovative solutions that meet the evolving needs of businesses and consumers. Our team of experts is dedicated to delivering cutting-edge technology that drives growth and success for our clients." / >
+    
+    <div className="flex items-center justify-center mt-2"> 
     <div className="md:flex md:gap-[1.5em]">
     <img src={require("../components/assests/images/Original-Logo.png") } className="w-[9em] py-6 md:w-[5.4rem]" alt=""/>
   {/*<span className="bg-blue-400 "><img src={require("./components/assests/images/logo 1.png") } /></span>*/}

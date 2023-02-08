@@ -70,9 +70,8 @@ export const About = () =>  {
 
     <section id="service-section" className="lg:px-16 bg-service-section bg-contain bg-repeat px-6 py-16 ">
     <Heading heading="The Scrum Team" />
-    <div className="md:w-[29em] ml-[auto] mr-[auto]">
     <Subheading  subheading="We believe strongly in our capacity to help businesses and organisations meet their needs, using the solutions we build together, involving them every step of the way. A peep at some of our people…"/>
-    </div>
+    
     <div className="lg:justify-center lg:flex">
     <div className="mt-14 mb-12 md:flex md:flex-wrap md:gap-11 lg:gap-6 md:justify-center lg:justify-center">
     <Card  className="bg-white" >
